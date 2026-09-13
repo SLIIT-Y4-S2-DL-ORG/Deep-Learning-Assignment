@@ -18,8 +18,8 @@ Download the [UCI HAR Dataset](https://archive.ics.uci.edu/dataset/240/human+act
 The following terminal commands will configure the virtual environment, install the dependencies, and launch the workspace.
 
 ```bash
-git clone <your-repo-link>
-cd <your-repo-directory>
+git clone https://github.com/SLIIT-Y4-S2-DL-ORG/Deep-Learning-Assignment.git
+cd <your-model-directory>
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
