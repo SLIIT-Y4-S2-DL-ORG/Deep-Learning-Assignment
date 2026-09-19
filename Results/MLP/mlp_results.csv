@@ -1,0 +1,2 @@
+Model,Architecture,Accuracy,Precision_weighted,Recall_weighted,F1_weighted,F1_macro,Test_loss,Parameters,Training_time_seconds,Inference_time_seconds,Epochs_trained
+MLP_A_Small,"[128, 64]",0.9077027485578555,0.9080907269239586,0.9077027485578555,0.9072550873267519,0.9074006488618601,0.27640292048454285,156998,32.42780542373657,0.5643692016601562,30
