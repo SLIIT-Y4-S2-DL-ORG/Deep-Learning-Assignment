@@ -1,0 +1,45 @@
+processed_Data/*.npz
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TensorFlow / Keras saved models
+*.keras
+*.h5
+*.hdf5
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.weights.h5
+
+# TensorBoard logs
+logs/
+tensorboard_logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Large generated result artifacts if you don't want them in Git
+Results/**/*.keras
+Results/**/*.h5
