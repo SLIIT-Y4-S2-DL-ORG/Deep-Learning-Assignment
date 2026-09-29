@@ -39,9 +39,9 @@ The selected model was:
 
 | Model        | Validation Accuracy | Validation Loss | Parameters | Training Time |
 | ------------ | ------------------: | --------------: | ---------: | ------------: |
-| GRU_A_Small  |              98.67% |          0.0559 |     15,046 |      101.14 s |
-| GRU_B_Medium |              96.95% |          0.0754 |     91,782 |      230.11 s |
-| GRU_C_Large  |              96.67% |          0.0830 |    355,590 |      508.64 s |
+| GRU_A_Small  |              98.67% |          0.0559 |     15,046 |       75.80 s |
+| GRU_B_Medium |              96.95% |          0.0754 |     91,782 |      179.50 s |
+| GRU_C_Large  |              96.67% |          0.0830 |    355,590 |      438.54 s |
 
 ## Final Test Results
 
