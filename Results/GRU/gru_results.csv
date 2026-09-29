@@ -1,0 +1,2 @@
+Model,Architecture,Accuracy,Precision_weighted,Recall_weighted,F1_weighted,Precision_macro,Recall_macro,F1_macro,Test_loss,Parameters,Training_time_seconds,Inference_time_seconds,Epochs_trained
+GRU_A_Small,[64],0.9093993892093655,0.9161842838490161,0.9093993892093655,0.9079456959876486,0.9173170834454195,0.9097874654210915,0.9087858529745931,0.2944541275501251,15046,75.79559516906738,1.0024025440216064,22
