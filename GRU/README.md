@@ -39,9 +39,9 @@ The selected model was:
 
 | Model        | Validation Accuracy | Validation Loss | Parameters | Training Time |
 | ------------ | ------------------: | --------------: | ---------: | ------------: |
-| GRU_A_Small  |              98.67% |          0.0559 |     15,046 |      101.14 s |
-| GRU_B_Medium |              96.95% |          0.0754 |     91,782 |      230.11 s |
-| GRU_C_Large  |              96.67% |          0.0830 |    355,590 |      508.64 s |
+| GRU_A_Small  |              98.67% |          0.0559 |     15,046 |       75.80 s |
+| GRU_B_Medium |              96.95% |          0.0754 |     91,782 |      179.50 s |
+| GRU_C_Large  |              96.67% |          0.0830 |    355,590 |      438.54 s |
 
 ## Final Test Results
 
@@ -58,8 +58,8 @@ The selected GRU_A_Small model was evaluated once on the unseen test set.
 | Macro F1           |   90.88% |
 | Test Loss          |   0.2945 |
 | Parameters         |   15,046 |
-| Training Time      | 101.14 s |
-| Inference Time     |  0.999 s |
+| Training Time      |  75.80 s |
+| Inference Time     |   1.00 s |
 
 The detailed classification report, standard and normalized confusion matrices, training history, candidate comparison, and final model are available in `Results/GRU/`.
 
@@ -87,4 +87,4 @@ The table below outlines the performance metrics across four different models: M
 | MLP | *TBD* | *TBD* | *TBD* | *TBD* | *Pending evaluation* |
 | 1D CNN | *TBD* | *TBD* | *TBD* | *TBD* | *Pending evaluation* |
 | LSTM | *TBD* | *TBD* | *TBD* | *TBD* | *Pending evaluation* |
-| **GRU** | **90.94%** | **90.79%** | **15,046** | **101.14s** | **Small GRU selected as baseline** |
+| **GRU** | **90.94%** | **90.79%** | **15,046** | **75.80s** | **Small GRU selected as baseline** |
